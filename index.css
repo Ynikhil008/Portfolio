@@ -1,0 +1,128 @@
+*{
+font-size: 30px;
+color: black;
+padding: 0%;
+margin: 0px;
+}
+
+.navbar{
+    width: 100%;
+    padding: 10px;
+    border: solid black 2px;
+    position:fixed;
+    background-color: #001F3F;    
+}
+
+@keyframes hover{
+    from color: black;
+    to color: red;
+}  
+
+.navbutton{
+    width:15%;
+    display:inline-block;
+    text-align: center;  
+    animation: hover 2s 1s infinite linear normal;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.introduction{
+    width: 100%;
+    padding: 5px;
+    background-color: #3A6D8C;
+}
+
+.profilepic{
+    width:60%;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.intro{
+    width:38%;
+    display: inline-block;
+    position: relative;
+    bottom: 125px;
+    font-size: 30px;
+}
+
+.intro1{   
+    font-size: 50px;
+}
+
+.intro2{ 
+    font-size: 30px;
+}
+
+#two{
+    background-color:#6A9AB0;
+    height:600px;
+    
+}
+
+#three{
+    background-color:#133E87;
+    height:1100px;
+    padding:20px;
+}
+
+#four{
+    background-color:#608BC1;
+    height:1100px;
+    padding:20px;
+}
+
+#five{
+    background-color:#CBDCEB;
+    height:700px;
+    padding:20px;
+}
+
+#six{
+    background-color:#4A628A;
+    height:300px;
+    padding:20px;
+}
+.contact{
+    width:100%;
+}
+
+.contactquery{
+    width: 43%;
+    display:inline-block;
+    text-align: center;
+}
+
+.contactdetail{
+    width: 48%;
+    display:inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    border-left: 2px dashed black;
+    padding-left: 120px;
+}
+
+.cd{
+    width: 100%;
+    text-align: left;
+}
+
+.navbutton:hover{
+font-size: 30px;
+}
+
+/*
+ .education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+    */
